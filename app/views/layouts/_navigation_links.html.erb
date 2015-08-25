@@ -7,11 +7,12 @@
     <li><%= link_to "Products", products_path %></li>
   </ul>
 </li>
-
+</ul>
+<ul class="nav navbar-nav navbar-right">
 <% if user_signed_in? %>
-  <li><%= link_to 'Edit account', edit_user_registration_path %></li>
-  <li><%= link_to 'Sign out', destroy_user_session_path, :method=>'delete' %></li>
+  <li><%= link_to fa_icon('cog', text: 'Account'), edit_user_registration_path %></li>
+  <li><%= link_to fa_icon('sign-out', text: 'Sign out'), destroy_user_session_path, :method=>'delete' %></li>
 <% else %>
-  <li><%= link_to 'Sign in', new_user_session_path %></li>
+  <li><%= link_to fa_icon('sign-in', text: 'Sign in'), new_user_session_path %></li>
   <li><%= link_to 'Sign up', new_user_registration_path %></li>
 <% end %>
