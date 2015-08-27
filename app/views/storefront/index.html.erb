@@ -1,6 +1,12 @@
 <h1>Welcome to Pup Shop Boys!</h1>
 <p>Where you can spend all your money on your pups!</p>
 
+<% if params[:cat_id] %>
+  <h3>All <%= @category.name.titleize %></h3>
+<% else %>
+  <h3>All Products</h3>
+<% end %>
+
 <div class="row">
   <% @products.each do |product| %>
     <div class="col-sm-4">
