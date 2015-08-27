@@ -2,7 +2,7 @@ class Product < ActiveRecord::Base
   belongs_to :category
   belongs_to :brand
 
-  validates :name, :description, :brand_id, :category_id, :price, :quantity, presence: true
+  validates :name, :description, :category_id, :brand_id, :price, :quantity, presence: true
   validates :name, uniqueness: true
   validates :price, numericality: {greater_than_or_equal_to: 0.01}
 
