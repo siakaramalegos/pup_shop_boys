@@ -1,5 +1,6 @@
-<h1>New Order</h1>
+<h1>Checkout</h1>
+<p>Welcome, <%= current_user.email %>. Please enter your shipping and payment details.</p>
 
 <%= render 'form' %>
 
-<%= link_to 'Back', orders_path %>
+<%= link_to 'Back to Cart', cart_path(session[:cart_id]) %>
