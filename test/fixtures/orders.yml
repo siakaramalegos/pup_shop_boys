@@ -3,14 +3,14 @@
 one:
   name: MyString
   address: MyText
-  payment_type: MyString
-  user_id: 
+  payment_type: Check
+  user_id: 1
 
 two:
   name: MyString
   address: MyText
-  payment_type: MyString
-  user_id:
+  payment_type: Check
+  user_id: 2
 
 # == Schema Information
 #

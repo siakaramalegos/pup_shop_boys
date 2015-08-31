@@ -6,9 +6,13 @@
 #
 one:
   email: test1@gmail.com
+  encrypted_password: password
+  role: user
 
 two:
   email: test2@gmail.com
+  encrypted_password: password
+  role: user
 
 # == Schema Information
 #
