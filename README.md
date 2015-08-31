@@ -1,5 +1,6 @@
 Pup Shop Boys
 ================
+[![Build Status](https://travis-ci.org/siakaramalegos/pup_shop_boys.svg?branch=master)](https://travis-ci.org/siakaramalegos/pup_shop_boys)
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
