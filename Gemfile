@@ -10,6 +10,7 @@ gem "paperclip", "~> 4.3"
 gem 'font-awesome-rails'
 gem 'annotate', '~> 2.6.6'
 gem 'awesome_print'
+gem 'aws-sdk', '< 2'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
